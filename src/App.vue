@@ -1,7 +1,7 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/counter">Counter</router-link>
   </nav>
   <router-view/>
 </template>
@@ -13,10 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: red;
+ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);;  
+font-family: Arial, Helvetica, sans-serif;
+
 }
 
-nav {
-  padding: 30px;
+nav a {
+  padding: 10px;
+  text-decoration: none;
 }
 
 nav a {
